@@ -476,6 +476,32 @@ font-weight: 100;
 
 }
 
+.chart-content h1 {
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 50px;
+	font-weight: 100;
+	
+}
+	
+.chart-content h2 {
+		padding-left: 270px;
+		padding-right: 10px;
+		font-size: 35px;
+		font-weight: 600;
+		
+		
+}
+	
+	
+.chart-content h3 {
+		padding-left: 10px;
+		padding-right: 10px;
+		padding-top: 60px;
+		font-size: 18px;
+		line-height: 1.2;
+}
+
 
 .btn-action {
  font-family: Open Sans;
@@ -1443,19 +1469,21 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 
 
 .app-features .feature-single h1 {
-	font-size: 15px;
+	font-size: 16px;
 	font-weight: 600;
 	color: #222222;
 	margin: 0 0 10px 0;
 	letter-spacing: 1px;
 	text-transform:uppercase;
+	padding-top: 7px;
 }
 
 .app-features .feature-single p {
-	font-size: 14px;
-	color: #A1A1A1;
+	font-size: 15px;
+	color: rgb(80, 78, 78);
 	line-height: 1.4;
 	margin: 10px 0 0 0;
+	text-transform:lowercase;
 }
 
 
@@ -2352,33 +2380,43 @@ padding: 120px 10px 50px 350px;
     padding-top: 200px;
     padding-bottom: 10px;
     font-family: 'LinuxLibertineORegular';
-    color: #fff
+    color: rgb(17, 16, 16)
 }
 
 .qoute-content2 h5 {
     font-size: 20px;
     font-family: 'LinuxLibertineORegular';
-    color: #fff
+    color: rgb(14, 12, 12)
 }
 
 .qoute-content2 h4 {
-    font-size: 23px;
+	font-size: 25px;
+	padding-top: 110px;
     font-family: 'LinuxLibertineORegular';
-    color: #fff
+    color: rgb(7, 6, 6)
 }
 
 .qoute-content2 h3 {
-    font-size: 25px;
+	font-size: 23px;
+	padding-left: 130px;
+    font-family: 'LinuxLibertineORegular';
+  
+    color: rgb(22, 22, 22);
+}
+.qoute-content2 h2 {
+	font-size: 30px;
+	padding-top: 10px;
+	padding-left: 130px;
     font-family: "Arial Black", sans-serif;
     text-transform: uppercase;
-    color: #fff
+    color: rgb(14, 12, 12)
 }
 
 .qoute-content2 mark {
     background-color: transparent;
     font-size: 23px;
     font-family: "Arial Black", sans-serif;
-    color: #fff
+    color: rgb(10, 10, 10)
 }
 
 

@@ -1156,7 +1156,7 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 
 
 .pitch {
-	padding: 100px 0 100px 0;
+	padding: 0px 0 100px 0;
 	background: #F2F2F2;
 }
 
@@ -1424,7 +1424,7 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 -----------------------------------------------------*/
 
 .app-features {
-	background: #FFFFFF;
+	background: #FFF;
 	padding: 100px 0 100px 0;
 }
 
@@ -1432,6 +1432,7 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 	font-size: 37px;
 	font-weight: 900;
 	margin: 0 0 10px 0;
+	text-align: center;
 }
 
 .app-features p {
@@ -2391,14 +2392,16 @@ padding: 120px 10px 50px 350px;
 
 .qoute-content2 h4 {
 	font-size: 25px;
-	padding-top: 110px;
+	padding-top: 80px;
     font-family: 'LinuxLibertineORegular';
     color: rgb(7, 6, 6)
 }
 
 .qoute-content2 h3 {
-	font-size: 23px;
-	padding-left: 130px;
+	font-size: 24px;
+	padding-left: 15px;
+	padding-top: 10px;
+	line-height: 1.4;
     font-family: 'LinuxLibertineORegular';
   
     color: rgb(22, 22, 22);
@@ -2417,6 +2420,32 @@ padding: 120px 10px 50px 350px;
     font-size: 23px;
     font-family: "Arial Black", sans-serif;
     color: rgb(10, 10, 10)
+}
+
+.app-features2 {
+	background: #FFFFFF;
+	padding-top: 100px;
+	padding-bottom: 450px;
+}
+
+.app-features2 h1 {
+	font-size: 37px;
+	font-weight: 900;
+	margin: 0 0 10px 0;
+	text-align: center;
+}
+
+.app-features2 p {
+	font-size: 18px;
+	font-weight: 400;
+	color: rgb(119, 119, 119);
+	line-height: 1.4;
+	text-align: left;
+	
+	padding-bottom: 50px;
+	padding-top: 10px;
+	padding-left: 55px;
+	padding-right: 55px;
 }
 
 
